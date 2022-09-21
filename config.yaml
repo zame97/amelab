@@ -1,6 +1,6 @@
 baseURL: "https://amelab.netlify.app"
 languageCode: "en-us"
-title: "Hugo Profile"
+title: "Amelab"
 theme: hugo-profile
 
 Paginate: 3
@@ -10,19 +10,6 @@ markup:
     renderer:
       unsafe: true
 
-Menus:
-  main:
-    - identifier: blog
-      name: Blog
-      title: Blog posts
-      url: /blogs
-      weight: 1
-    
-    - identifier: gallery
-      name: Gallery
-      title: Blog posts
-      url: /gallery
-      weight: 2
 
     #Dropdown menu
     # - identifier: dropdown
@@ -110,22 +97,21 @@ params:
       fontAwesomeIcons:
         - icon: fab fa-github
           url: https://github.com/zame97
-      customIcons:
-        - icon: /fav.png
-          url: "https://linktr.ee/aulastudio_portoidee_"
+        - icon: fab fa-linkedin
+          url: "https://www.linkedin.com/in/amedeozanotto/"
 
   # About
   about:
     enable: true
     title: "About Me"
-    image: "/images/me.png"
+    image: "./resources/_gen/images/io.jpg"
     content: |-
       I am a Computer Science student at Università Del Piemonte Orientale (Italy). 
 
       I am currently working on Air Quality Monitoring and Web Development.
     skills:
       enable: true
-      title: "Here are a few technologies I've been working with recently:"
+      title: "Here are a few technologies I've been working with:"
       items:
         - "HTML"
         - "CSS"
@@ -195,7 +181,7 @@ params:
   # Achievements
   # projects
   projects:
-    enable: true
+    enable: false
     # title: "Custom Name"
     items:
       - title: Hugo Profile
@@ -245,10 +231,8 @@ params:
 
   #Contact
  
-  footer:
-    # recentPosts: false
-    socialNetworks:
-      github: https://github.com
-      linkedin: https://linkedin.com
-      instagram: https://instagram.com
-      facebook: https://facebook.com
+  # footer:
+  #    recentPosts: false
+  #   socialNetworks:
+  #     github: https://github.com
+  #     linkedin: https://linkedin.com
